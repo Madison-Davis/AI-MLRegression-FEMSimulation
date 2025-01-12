@@ -1,5 +1,11 @@
-# Personal-MachineLearning-Regression-FEMSimulation
-
+# Regression
+# Part 1: Linear Regression on Boston Housing Data
+See code for implementation. </br>
+Caveat: understand linear modeling is usually not the most accurate in a binary-output model, where a probit or logit may do better.
+# Part 2: Ridge Regression on Steel Industry Data
+See code for implementation.
+# Part 3: RANSAC Regression on FEM Simulated Data
+See code for implementation.  More details shown below:</br>
 100% Accuracy using RANSAC (Random Sample Consensus) Regressor
 Goal: predict the outputs of a finite element model simulation based on stress results.  Four outputs were tested individually, and all four had the same accuracies: MTT, MRT, MTC, MRC
 
